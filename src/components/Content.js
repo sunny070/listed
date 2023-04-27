@@ -5,7 +5,7 @@ import Login from "./Login"
 function Content(){
 return <div>
         <div className="heading">
-        <img src="./images/download.jpg" alt="startingimage"/> 
+        <img src="../images/download.jpg" alt="startingimage"/> 
 
         </div>
         <div className="heading-text" >
