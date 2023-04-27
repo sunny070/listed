@@ -1,11 +1,10 @@
 import React from "react"
 import Login from "./Login"
-// import Opening from "../images/opening.jpg"
 
 function Content(){
 return <div>
         <div className="heading">
-        <img src="../images/download.jpg" alt="startingimage"/> 
+        <img src="./images/background.jpg" alt="startingimage"/> 
 
         </div>
         <div className="heading-text" >
