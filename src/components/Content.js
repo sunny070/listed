@@ -5,7 +5,7 @@ import Login from "./Login"
 function Content(){
 return <div>
         <div className="heading">
-        <img src="../images/img2.webp" alt="startingimage"/> 
+        <img src="./images/img2.webp" alt="startingimage"/> 
 
         </div>
         <div className="heading-text" >
