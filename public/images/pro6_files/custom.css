@@ -1,0 +1,259 @@
+body.uw {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  padding-top: 60px;
+}
+
+img.header {
+  z-index: 1;
+}
+
+body div.circle-logo img.circle {
+  z-index: 1;
+  position: relative;
+}
+
+.illus-bg {
+  background-image: url('../images/creatorBg.svg');
+  background-size: cover;
+}
+
+.hero {
+  background-image: url('../images/heroBG-min.png');
+  background-size: cover;
+  margin-top: -140px;
+  background-position-y: bottom;
+  background-position-x: center;
+}
+
+.footer {
+  background-image: url('../images/Footer\ BG.png');
+  background-size: cover;
+}
+
+.boxShadow {
+  box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.12);
+}
+
+.boxShadow1 {
+  box-shadow: 0px 8px 44px rgba(0, 0, 0, 0.06);
+}
+
+.circleBorder {
+  border: 3px solid #d9d9d9;
+}
+
+.fontCaveat {
+  font-family: "Caveat Brush", cursive;
+}
+
+.centerPosition {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hover-pointer:hover {
+  cursor: pointer;
+}
+
+.text-underline:hover {
+  text-decoration: underline;
+}
+
+.hero-text {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+div.text-center {
+  text-align: center;
+}
+
+.hover-color-blue:hover {
+  background-color: #135DCB;
+}
+
+.hover-color-orange:hover {
+  background-color: #E05E00;
+}
+
+.orange-shadow {
+  box-shadow: 0px 4px 12px 0px #8B3A00;
+}
+
+.blue-shadow {
+  box-shadow: 0px 4px 12px 0px #84B5FF;
+}
+
+img.listedBanner {
+  margin-top: 30px;
+}
+
+svg.scribble {
+  margin-top: 45px;
+  margin-left: -110px;
+}
+
+img.uw {
+  width: 85%;
+  height: fit-content;
+}
+
+div.creators {
+  z-index: -1;
+  position: relative;
+}
+
+.dome {
+  margin: -10% -25% 0;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.gradientbg {
+  background-color: #2e2d2d;
+}
+
+.container {
+  width: 100vw;
+}
+
+.circle-logo {
+  margin-top: -240px;
+}
+
+.listed-info {
+  text-align: left;
+}
+
+@media (max-width:374px) and (min-width:360px) {
+  .scribble-container svg.scribble {
+    width: 15px;
+    margin-top: 85px;
+    margin-left: -5px;
+  }
+
+  html body.uw {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  div.cards {
+    width: 90%;
+  }
+
+  h1.hero-uw {
+    font-size: 16px;
+  }
+
+  .hero-uw .fontCaveat {
+    font-size: 24px;
+  }
+
+  .scribble-container svg.scribble {
+    width: 18px;
+  }
+}
+
+@media screen and (device-width: 720px) and (device-height: 540px) and (orientation: landscape) {}
+
+@media screen and (device-width: 540px) and (device-height: 720px) and (orientation: portrait) {}
+
+@media screen and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  div.products-ipad {
+    width: 75%;
+  }
+
+  .scribble-container svg.scribble {
+    margin-top: 20px;
+    margin-left: -115px;
+  }
+
+  div.circle-logo {
+    margin-top: -210px;
+  }
+}
+
+@media screen and (device-width: 820px) and (device-height: 1180px) and (orientation: portrait) {
+  .reverse .img-bl {
+    order: 1;
+  }
+
+  .products-ipad {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 2001px) {
+  html body {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.hero {
+    height: 65vh;
+  }
+
+  img.uw {
+    height: max-content;
+  }
+}
+
+@media screen and (max-width: 50em) {
+  body.uw {
+    overflow-x: hidden;
+  }
+
+  svg.scribble {
+    width: 26px;
+    margin-top: 90px;
+    margin-left: -5px;
+  }
+
+  .hero {
+    background-image: url('../images/Mobile\ Hero\ BG-min.png');
+    padding: 0 5px;
+  }
+
+  .hero-text {
+    font-size: 36px;
+    line-height: 52px;
+  }
+
+  span.fontCaveat {
+    font-size: 36px;
+  }
+
+  .circle-logo {
+    margin-top: -140px;
+  }
+
+  .scribble-container img {
+    width: 45px;
+    margin-top: 75px;
+    margin-left: -15px;
+  }
+
+  .reverse .txt {
+    order: 1;
+  }
+
+  .reverse .img-bl {
+    order: 1;
+  }
+
+  .listed-info {
+    text-align: center;
+  }
+}
