@@ -9,7 +9,7 @@ function Section12(){
         </div>
         <div className="section12-img">
             <div className="section12-img1">
-                <img src="./images/investor 1.png" alt="Investor1"/>
+                <img src="./images/Investor 1.png" alt="Investor1"/>
                 <p>Whiteboard Capital</p>
             </div>
             <div className="section12-img2">
