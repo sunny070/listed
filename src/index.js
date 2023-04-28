@@ -10,7 +10,8 @@ root.render(
     domain="dev-7nrsmxpaamnh43se.us.auth0.com"
     clientId="drQwnyXbYDnVNwkNhmyvA9EVlIODSTVq"
     authorizationParams={{
-      redirect_uri: window.location.origin
+      redirect_uri: {"https://sunny070.github.io/project/"}
+//   redirect_uri: window.location.origin
     }}
   >
     
